@@ -8,7 +8,7 @@ public class whileLoopBroCode {
 
         int i = 1;  // start counting at 1
 
-            while (i < 11) {                         // loop continues while i is less than 6
+            while (i < 5) {                         // loop continues while i is less than 6
             System.out.println("Count: " + i);      // print current value of i
             ++i;                                    // increase i by 1 (same as i = i + 1)
 
