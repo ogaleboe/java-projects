@@ -5,9 +5,9 @@ public class switchStatement {
         // out of many choices, based on the value of a variable.
 
 
-        int n = 2;
+        int day = 2;
 
-        switch (n){
+        switch (day){
             case 1:
                 System.out.println("Monday");
                 break;
