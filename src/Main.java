@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Main {
     public static void main(String[] args) {
         // variable = a reusable container for a value
@@ -52,5 +53,22 @@ public class Main {
         } else{
             System.out.println("You are Not a student");
         }
+=======
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("What is your name? ");
+        String name = scanner.nextLine();
+
+        System.out.println("How old are you? ");
+        int age = scanner.nextInt();
+
+        System.out.printf("Hello " + name +"." +" "+ age + " is an excellent age to start programming lol.");
+        scanner.close();
+>>>>>>> 10944327afb83011dec3e8ed7d6ae171072e4449
     }
 }
