@@ -19,5 +19,6 @@ public class SimpleMethod
     {
         showmessage();           // Call method to show hello message
         showGoodbyeMessage();    // Call method to show goodbye message
+        showmessage();
     }
 }

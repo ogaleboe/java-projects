@@ -6,6 +6,22 @@ public class Cat {
     public int height;
     public int weight;
 
+    //implicit constructor
+    public Cat (){
+    }
+
+    public Cat (String name, int age){ //overloaded constructor
+        this.name = name;
+        this.age = age;
+    }
+
+    public Cat (String colour, int height, int weight){ //overloaded constructor
+        this.colour = colour;
+        this.height = height;
+        this.weight = weight;
+    }
+
+
     public void eat(){
         System.out.println("Cat eating");
     }
